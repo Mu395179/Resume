@@ -82,9 +82,10 @@ body {
 .imgbx img:hover {
     scale: 1.2;
     filter: grayscale(1);
-    position: relative; /* Ensure the icon is positioned relative to the image */
 }
 
-
+.imgbx div:hover{
+    animation-play-state: paused;
+}
 
 
