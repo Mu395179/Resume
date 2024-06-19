@@ -6,7 +6,9 @@
 body {
     background-color: lightgray;
 }
-
+.navbar{
+    position: fixed;
+}
 .img-fluid {
     width: 50%;
     display: block;
